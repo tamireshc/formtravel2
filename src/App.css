@@ -1,0 +1,59 @@
+label,
+input {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 247, 247);
+}
+
+label {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+label::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 10px;
+  background-color: rgb(224, 137, 137);
+  margin-right: 0.5rem;
+  align-self: center;
+  margin-bottom: 0.2rem;
+}
+
+input {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  width: 18rem;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: rgb(167, 112, 112);
+  color: white;
+  border: none;
+  padding: 0.5rem 4rem;
+  box-sizing: border-box;
+  width: 20rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  animation: 0.9s linear;
+}
