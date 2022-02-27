@@ -1,5 +1,8 @@
-<h2>Formulário para busca de viagens com Redux </h2>
+# Projeto formtravel2
+Projeto de formulário para um site  que faz busca de viagens  </br>
+O projeto faz parte dos estudos do curso  _[Origamid](https://www.origamid.com/)_ :wolf: </br>
 
-*Estudos realizados no curso Origamid*</br>
-Deploy ->
-https://vercel.com/tamireshc/formtravel2
+#### Projeto desenvolvido em REDUX </br>
+Para visualizar o deploy clique aqui -> _[Deploy](https://formtravel2.vercel.app/)_
+
+
